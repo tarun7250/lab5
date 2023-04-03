@@ -1,0 +1,6 @@
+Download this paper: https://ieeexplore.ieee.org/document/7410673. It describes a couple of networks to estimate dense optical flow for a given video. This is the related code repository: https://github.com/ClementPinard/FlowNetPytorch
+
+
+Tasks:
+- Read the paper and select a network (pretrained) to estimate dense optical flow in one of the standard datasets mentioned in the paper. Compare (MSE) the estimates of this network with your implementation of Lucas-Kanade estimator (3x3).
+- Capture 15 ten-second videos using your mobile phone. Consider 12-3 training-testing split and perform transfer learning of your chosen deep network. Compare the dense motion map produced by it for the test set videos with the Lucas-Kanade and block-matching motion estimates.
